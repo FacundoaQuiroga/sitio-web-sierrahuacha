@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Cabañas-Sierrahuacha</title>
+    <meta charset="utf-8"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Muli" rel="stylesheet">
+    <link rel="stylesheet" href="css/sierrahuacha.css"/>
+  </head>
+
+  <body>
+    <header id="header" class="header contenedor"> <!-- header -->
+      <figure class="logotipo"> <!--logotipo -->
+        <img src="images\logo1.jpg" width="157" height="101" alt="sierrahuacha logotipo"/>
+      </figure>
+      <nav class="menu"><!-- menu -->
+        <ul>
+          <li>
+            <a href="index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="ubicacion.html">Ubicacion</a>
+          </li>
+          <li>
+            <a href="reserva.html">Reserva</a>
+          </li>
+          <li>
+            <a href="fotos.html">Fotos</a>
+          </li>
+          <li>
+            <a href="actividades.html">Actividades</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+      <section id="portada2" class="portada2 "> <!-- portada -->
+        <div class="contenedor">
+
+          <h1 class="titulo2">Reserva</h1><!-- titulo -->
+
+          <h3 class="title-a21">rellene el siguiente formulario<br/>para que su reserva sea recibida<br/>y nos
+            pongamos en contacto con usted<br/>mediante el correo electronico. </h3><!-- resumen -->
+        </div>
+            <section id="reserva2" class="reserva contenedor">
+              <FORM  class="formularioreserva" ACTION="enviar_email.php" METHOD="post"> <!-- formulario de reserva y envio a php -->
+                    <div class="col3">
+
+                        <label for="nombre">Nombre</label>
+                        <input type="text" required id="nombre" name="nombre"></input>
+
+                        <label for="n_documento">N° de Documento</label>
+                        <input type="text" required id="n_documento" name="n_documento"></input>
+
+                        <label for="telefono">Telefono</label>
+                        <input type="tel" required id="telefono" name="telefono"></input>
+
+                        <label for="adultos">N° de adultos</label>
+                        <input type="number" required id="adultos" name="adultos"></input>
+
+                        <label for="ingreso">Fecha de ingreso</label>
+                        <input type="date" required id="ingreso" name="ingreso"></input>
+
+                        <label for="message">Mensaje</label>
+                        <textarea name="message" id="message" cols="30" rows="7"></textarea>
+                        <input type="submit" value="Enviar" class="buttonreserva" /><a href="index.html"></a>
+                  </div>
+                  <div class="col4"> <!-- segunda columna -->
+                        <label for="apellido">Apellido</label>
+                        <input type="text" required id="apellido" name="apellido"></input>
+
+                        <label for="email">E-mail</label>
+                        <input type="email" required id="email" name="email"></input>
+
+                        <label for="celular">Celular</label>
+                        <input type="tel" required id="celular" name="celular"></input>
+
+                        <label for="niños">N° de niños</label>
+                        <input type="number" required id="niños" name="niños"></input>
+
+                        <label for="salida">Fecha de salida</label>
+                        <input type="date" required id="salida" name="salida"></input>
+                  </div>
+              </FORM>
+          </section>
+      </section>
+    <footer class="footer">
+        <div class="contenedor">
+          <div class="contacto">
+            <img src="../images/icono2.png" alt="logotipo footer"/>
+            <a href="tel:+56974205793"><strong>Telefono</strong> <span>974205793</span></a>
+            <a href="mailto:sierrahuacha@gmail.com"><strong>Email</strong> <span>sierrahuacha@gmail.com</span></a>
+          </div>
+        </div>
+    </footer>
+  </body>
+</html>

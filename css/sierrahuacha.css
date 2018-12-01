@@ -1,0 +1,259 @@
+/* portada=index
+portada1=Ubicacion
+portada3=Reserva
+portada4=Fotos
+portada5=actividades
+.col1, col2=pagina index
+.col3, col4=pagina reserva
+la pagina index va con un 0al final para tener mas orden de el codigo */
+/* <---INDEX, FOOTER, Y LO GENERAL, col1,col2,col3,col4 en reserva-----------> */
+body {
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+}
+input:focus, textarea:focus {
+  background: lightgray;
+}
+.contenedor {
+  width: 800px;
+  margin: auto;
+}
+.logotipo {
+  display: inline-block;
+  float: left;
+  position: absolute;
+  left: 0;
+}
+.menu {
+  font-size: 25px;
+  display: inline-block;
+  float: right;
+  -webkit-text-fill-color: #f4f43b;
+  background-color: #00000063;
+}
+.menu li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.titulo0 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.title-a0 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 190px;
+}
+.cabañas0 h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 35px;
+  color: black;
+}
+.portada0 {
+  background: url('https://scontent.flim5-2.fna.fbcdn.net/v/t1.0-9/46638455_10215516097488851_6835511821055557632_o.jpg?_nc_cat=103&_nc_ht=scontent.flim5-2.fna&oh=b6eba39eddd3456deb85d094ece5b156&oe=5C7D037D');
+  color: #f1f157;
+  padding: 160px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+.button97 {
+  font-size: 30px;
+  padding: 15px;
+  background-color: #33a7ae;
+  color: white;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  border-radius: 20px;
+  background: linear-gradient(to left, #33a7ae, #27d7d9);
+}
+
+.cabaña0 {
+  margin: 10px 10px 40px 10px;
+  overflow: hidden;
+  border: 1px solid #560808;
+  border-radius: 150px 40px 40px 10px;
+}
+.button98 {
+  font-family: 'Roboto Slab', serif;
+  padding: 45px;
+  background-color: #50b254;
+  position: absolute;
+  font-size: 30px;
+  margin: 55px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+.right0, .left0 {
+  float: right;
+}
+.footer {
+  background: green;
+  padding: 60px 30px;
+}
+.contacto {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contacto img, strong {
+  display: block;
+  font-size: 35px;
+}
+.contacto a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  margin: 10px 10px 10px 30px;
+}
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+.formularioft {
+  display: flex;
+  width: 400px;
+  color: white;
+}
+.formularioft label {
+  margin-bottom: 10px;
+}
+.col1 {
+  margin-right: 15px;
+}
+.col2 {
+  align-items: flex-start;
+}
+.col2 .buttoncontacto {
+  margin-top: 13px;
+  color: white;
+}
+.buttoncontacto {
+  font-family: 'Roboto Slab', serif;
+  background-color: #33a7ae;
+  border-radius: 20px;
+  border: none;
+}
+/* <---UBICACION-----------> */
+.titulo1{
+font-family: 'Roboto Slab', serif;
+font-size: 60px;
+margin-bottom: 10px;
+margin-top: -90px;
+color: #13483b;
+}
+.title-a11{
+  font-size: 24px;
+}
+.title-a12 {
+  font-size: 30px;
+  color: black;
+}
+.portada1{
+  background: url('https://scontent.flim5-1.fna.fbcdn.net/v/t1.0-9/46762862_10215516311494201_8755064599788650496_o.jpg?_nc_cat=111&_nc_ht=scontent.flim5-1.fna&oh=79ef7e026ed479e93b975358b9362e48&oe=5C7698EF');
+  padding: 200px 1px 50px 170px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+.googlemaps {
+  font-size: 30px;
+  color:yellow;
+}
+/* <---RESERVA-----------> */
+.titulo2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: -90px;
+  color: #13483b;
+}
+.title-a21, .title-a22, .title-a23, .title-a24, {
+  font-size: 24px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.portada2{
+  background: url('https://scontent.flim5-1.fna.fbcdn.net/v/t1.0-9/46523791_10215516099608904_8425096788016365568_o.jpg?_nc_cat=104&_nc_ht=scontent.flim5-1.fna&oh=56f4233db37331f66a92e42a6a83314b&oe=5C6A8F64');
+  padding: 200px 150px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+.formularioreserva {
+  font-size: 22px;
+  display: flex;
+  width: 400px;
+  color:#f4f43b;
+  padding: 70px 170px 60px 120px ;
+  border-style: dotted;
+  background-color: #00000070;
+}
+.formularioreserva label {
+  margin-bottom: 7px;
+  margin-top: 20px;
+}
+.col1, .col2, .col3, .col4 {
+  display: flex;
+  flex-direction: column;
+}
+.col3, .col4 {
+  margin-right: 60px;
+  align-items: flex-start;
+  text-decoration-line: underline;
+  text-decoration-color: #ff6347;
+  text-underline-position: under;
+}
+.buttonreserva {
+  font-family: 'Roboto Slab', serif;
+  background-color: #33a7ae;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 60px;
+  margin-top: 5px;
+}
+/* <---FOTOS-----------> */
+.portada3{
+  background: url('https://raw.githubusercontent.com/FacundoaQuiroga/sierrahuacha/master/images/Untitled-5.jpg');
+  padding: 200px 40px 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+.titulo3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+  margin-top: -90px;
+  color: white;
+  background-color: black;
+}
+
+.title-a32 {
+  font-size: 30px;
+  color: white;
+  background-color: black;
+}
+.title-a33 {
+  font-size: 40px;
+  color: white;
+  background: black;
+  text-align: center;
+}
+.fotosfotos {
+  width: 900px;
+  margin: auto;
+}
+
+
+
+/* <---ACTIVIDADES-----------> */
